@@ -70,7 +70,7 @@ def get_items(json_dict):
 
 
 if __name__ == '__main__':
-    query = 'iphone 7 128g plus'
+    query = 'iphone 8 64g'
     items = search_pchome(query)
     today = time.strftime('%m-%d')
     print('%s 搜尋 %s 共 %d 筆資料' % (today, query, len(items)))
